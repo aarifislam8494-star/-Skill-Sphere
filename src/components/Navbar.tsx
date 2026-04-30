@@ -7,8 +7,8 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm px-8 sticky top-0 z-50">
       <div className="flex-1">
-        <Link href="/" className="btn btn-ghost text-xl font-bold tracking-wide">
-          SkillSphere
+        <Link href="/" className="btn btn-ghost">
+           <img src="/logo.png" alt="SkillSphere" className="h-8 object-contain" />
         </Link>
       </div>
       <div className="flex-none gap-6">
