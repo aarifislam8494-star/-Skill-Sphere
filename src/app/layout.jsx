@@ -1,18 +1,13 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "SkillSphere",
   description: "A modern online learning platform",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body className="min-h-screen flex flex-col">

@@ -6,7 +6,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import courses from "@/data/courses.json";
+import courses from "../data/courses.json";
 
 export default function Hero() {
   return (
