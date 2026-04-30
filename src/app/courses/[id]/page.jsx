@@ -1,12 +1,16 @@
 import React from "react";
-import { cookies } from "next/headers";
+import { auth } from "../../../lib/auth";
+import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import Image from "next/image";
-import courses from "@/data/courses.json";
+import courses from "../../../data/courses.json";
 
 export default async function CourseDetails({ params }) {
-  const cookieStore = await cookies();
-  const isLoggedIn = cookieStore.get("auth")?.value === "true";
+  const session = await auth.api.getSession({
+    headers: await headers()
+  });
+  const isLoggedIn = !!session;
+  
   const { id } = await params;
 
   if (!isLoggedIn) {
