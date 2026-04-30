@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "Jhankar Mahbub",
+    "duration": "40 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch with hands-on projects and interactive coding exercises.",
+    "image": "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Learn React JS & Next.js in Bengali",
+    "instructor": "Sumit Saha",
+    "duration": "25 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Master modern front-end frameworks to build scalable and fast single-page web applications.",
+    "image": "https://img.daisyui.com/images/stock/photo-1620288627223-53302f4e8c74.webp",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "Mastering PHP and Laravel",
+    "instructor": "Hasin Hayder",
+    "duration": "35 hours",
+    "rating": 4.7,
+    "level": "Advanced",
+    "description": "Deep dive into PHP backend development using the Laravel framework to build enterprise-grade applications.",
+    "image": "https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Masterclass",
+    "instructor": "Ayman Sadiq",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Beginner",
+    "description": "A comprehensive guide to digital marketing strategies, SEO, and social media advertising in the local market.",
+    "image": "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fac92.webp",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Graphic Design Basics to Advanced",
+    "instructor": "Enayet Chowdhury",
+    "duration": "20 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn Adobe Photoshop and Illustrator to create stunning visuals and kickstart your freelance career.",
+    "image": "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
+    "category": "Design"
+  },
+  {
+    "id": 6,
+    "title": "Spoken English for Career Success",
+    "instructor": "Munzereen Shahid",
+    "duration": "12 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Improve your spoken English skills with practical tips and vocabulary designed for professional communication.",
+    "image": "https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp",
+    "category": "Language"
+  }
+]
