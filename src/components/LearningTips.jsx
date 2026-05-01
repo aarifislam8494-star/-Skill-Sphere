@@ -8,12 +8,12 @@ export default function LearningTips() {
   ];
 
   return (
-    <section className="py-16 px-8 max-w-7xl mx-auto w-full bg-base-200 rounded-3xl my-8">
-      <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold mb-2">Learning Tips</h2>
-        <p className="text-gray-600">Boost your productivity with these proven strategies</p>
+    <section className="py-10 md:py-16 px-4 md:px-8 max-w-7xl mx-auto w-full bg-base-200 rounded-2xl md:rounded-3xl my-6 md:my-8 mx-4 md:mx-auto w-[calc(100%-2rem)] md:w-full">
+      <div className="text-center mb-6 md:mb-10">
+        <h2 className="text-2xl md:text-3xl font-bold mb-2">Learning Tips</h2>
+        <p className="text-gray-600 text-sm md:text-base">Boost your productivity with these proven strategies</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
         {tips.map((tip, idx) => (
           <div key={idx} className="card bg-base-100 shadow-sm border border-base-300 hover:shadow-md transition-shadow">
             <div className="card-body items-center text-center">
