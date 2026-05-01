@@ -1,2 +1,45 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply text-base-content leading-relaxed;
+    font-family: var(--font-outfit), sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-black tracking-tight text-base-content;
+    line-height: 1.1;
+  }
+
+  p {
+    @apply text-base-content/70;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-base-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full hover:bg-primary/50 transition-colors;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+}
