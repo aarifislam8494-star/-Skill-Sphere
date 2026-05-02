@@ -7,8 +7,8 @@ const db = client.db();
 
 export const auth = betterAuth({
     database: mongodbAdapter(db),
-    baseURL: process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://skill-sphere-mu-drab.vercel.app/",
-    trustedOrigins: ["https://skill-sphere-mu-drab.vercel.app/", "http://localhost:3000"],
+    baseURL: process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://skill-sphere-mu-drab.vercel.app",
+    trustedOrigins: ["https://skill-sphere-mu-drab.vercel.app", "http://localhost:3000"],
     emailAndPassword: {
         enabled: true
     },
