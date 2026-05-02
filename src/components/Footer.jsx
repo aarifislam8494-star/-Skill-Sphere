@@ -1,4 +1,4 @@
-import React from "react";
+import  Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
           
           <div className="sm:col-span-2 lg:col-span-1 flex flex-col items-center lg:items-start text-center lg:text-left">
-            <img src="/logo.png" alt="SkillSphere Logo" className="h-9 sm:h-10 md:h-12 mb-4" />
+            <Image src="/logo.png" alt="SkillSphere Logo" width={48} height={48} className="h-9 sm:h-10 md:h-12 w-auto mb-4" />
             <p className="text-sm text-gray-700 leading-relaxed max-w-xs">
               SkillSphere Learning Platform. Providing reliable tech education and skill development since 2024.
             </p>

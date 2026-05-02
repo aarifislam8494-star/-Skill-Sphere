@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -76,10 +76,11 @@ export default function Hero() {
                 <div className="flex-1 flex justify-center md:justify-end mb-4 md:mb-0">
                   <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px] p-1.5 md:p-2 bg-gradient-to-tr from-primary to-secondary rounded-full shadow-2xl hover:scale-105 transition-transform duration-500 shrink-0">
                     <div className="w-full h-full rounded-full overflow-hidden border-2 md:border-4 border-base-100 bg-base-200 relative">
-                      <img 
+                      <Image 
                         src={course.image} 
                         alt={course.title} 
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                       />
                     </div>
                     <div className="absolute -bottom-2 -left-2 md:-bottom-6 md:-left-6 bg-white/95 backdrop-blur-md p-2 md:p-4 rounded-xl md:rounded-2xl shadow-2xl flex items-center gap-2 md:gap-3 border border-white/40 animate-bounce delay-150 scale-75 md:scale-100 transform origin-bottom-left z-20">
