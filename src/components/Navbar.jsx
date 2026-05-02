@@ -37,7 +37,7 @@ export default function Navbar() {
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost hover:bg-transparent px-1 sm:px-2">
-          <Image src="/logo.png" alt="SkillSphere" width={48} height={48} className="h-8 sm:h-9 md:h-11 lg:h-12 w-auto object-contain" />
+         <Image src="/logo.png" alt="SkillSphere" width={96} height={96} className="h-8 sm:h-9 md:h-11 lg:h-20 w-auto object-contain" unoptimized priority quality={100} />
         </Link>
       </div>
 
